@@ -5,8 +5,8 @@
 #### ■ X (旧:Twitter) のクローンアプリです。
 
 - React と Firebase で構成されています。
-- 使用端末の LAN 設定の変更・コミュニケーションツールの起動等の機能を有しています。
-- イメージマップから使用する会議スペースを選択し、指定地点のネットワーク設定に変更します。
+- react-twitter-embed ライブラリを使用しています。
+- ※ 動作には Firebase の APIKey を取得する必要があります。
 
 ## Sample Image
 
@@ -15,16 +15,15 @@
 以下のような画面を構築します。
 Firebase 上のユーザー情報及び、投稿情報を画面にレンダリングします。また、投稿内容は ポストボタンから登録することもでき、内容は Firebase に登録されます。
 
+_○ 再現した画面構成_
 ![SampleView](/docs/images/view.png)
-
-<center>画像タイトル</center>
 
 ### ■ Firebase 連携
 
 投稿内容は以下のように Firebase に登録されます。
-![firebaseview](/docs/images/firebase.png)
 
-<center>画像タイトル</center>
+_○ Firebase 上での登録_
+![firebaseview](/docs/images/firebase.png)
 
 ## Usage
 
